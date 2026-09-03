@@ -1,26 +1,145 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>INTERMEX S.A. | Perfil de Usuario Final</title>
 <style>
-:root{--r:#d8171d;--bg:#090d12;--p:#121923;--p2:#18212d;--l:#2b3645;--t:#f5f7fa;--m:#9eacbc;--g:#26c28a;--a:#f0b94b}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0%,rgba(216,23,29,.16),transparent 28%),var(--bg);color:var(--t);font-family:Arial,Helvetica,sans-serif;line-height:1.5}.wrap{max-width:1240px;margin:auto;padding:28px 22px 55px}.top{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:34px}.brand{font-weight:900;font-size:19px}.brand small{display:block;color:var(--m);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.tag{border:1px solid var(--l);border-radius:999px;padding:7px 11px;color:#ced6df;font-size:10px;font-weight:800;text-transform:uppercase}.hero,.card{background:linear-gradient(180deg,var(--p),#0f151d);border:1px solid var(--l);border-radius:18px}.hero{padding:32px;margin-bottom:18px;background:linear-gradient(135deg,rgba(216,23,29,.15),rgba(18,25,35,.95) 58%)}.ey{color:#ff6b70;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.12em}h1{font-size:clamp(36px,5vw,58px);line-height:1.03;margin:9px 0 14px}.lead{max-width:850px;color:#cbd4de;font-size:17px}.grid{display:grid;gap:15px}.four{grid-template-columns:repeat(4,1fr)}.three{grid-template-columns:repeat(3,1fr)}.two{grid-template-columns:1fr 1fr}.card{padding:19px}.label{color:var(--m);font-size:10px;text-transform:uppercase;letter-spacing:.1em;font-weight:800}.value{font-size:27px;font-weight:900;margin:4px 0}.muted{color:var(--m);font-size:13px}h2{font-size:24px;margin:38px 0 14px}h3{font-size:16px;margin:0 0 7px}.persona{display:grid;grid-template-columns:.7fr 1.3fr;gap:15px}.person{background:linear-gradient(160deg,var(--r),#8f1015);border:none}.person .name{font-size:34px;font-weight:900;margin-top:28px}.chips span{display:inline-block;padding:6px 9px;border-radius:999px;background:#232e3a;border:1px solid #344252;font-size:11px;margin:3px 3px 3px 0}.chips .red{background:rgba(216,23,29,.16);border-color:rgba(216,23,29,.45);color:#ff9da1}.chips .green{background:rgba(38,194,138,.12);border-color:rgba(38,194,138,.35);color:#8fe4c6}.mini{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.box{background:var(--p2);border:1px solid var(--l);border-radius:12px;padding:13px}.box b{display:block;font-size:11px;text-transform:uppercase;margin-bottom:4px}.box span{font-size:12px;color:var(--m)}ul{margin:0;padding-left:18px;color:#d4dce5}li{margin:6px 0}.barrow{display:grid;grid-template-columns:190px 1fr 45px;gap:10px;align-items:center;margin:11px 0;font-size:12px}.bar{height:9px;background:#26303d;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--r),#ff5b60)}.num{text-align:right;font-weight:900}.q{font-size:18px;font-weight:900;padding:16px;border-radius:13px;background:#0b1016;border:1px solid var(--l);margin-top:12px}.q span{color:#ff666b}.risk{border-top:3px solid var(--r)}.motive{border-top:3px solid var(--g)}table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--l);vertical-align:top}th{color:var(--m);font-size:9px;text-transform:uppercase;letter-spacing:.08em}.status{display:inline-block;border-radius:999px;padding:5px 7px;background:rgba(240,185,75,.12);border:1px solid rgba(240,185,75,.28);color:#ffd27d;font-size:9px;font-weight:900;text-transform:uppercase}.call{padding:24px;border-radius:18px;border:1px solid #462a2d;background:linear-gradient(130deg,#151b24,#1b1115)}.call strong{font-size:20px}.footer{border-top:1px solid var(--l);margin-top:38px;padding-top:16px;display:flex;justify-content:space-between;color:var(--m);font-size:10px}.btn{background:#161e28;border:1px solid var(--l);color:white;border-radius:9px;padding:8px 10px;cursor:pointer;font-weight:800}
+:root{--r:#d8171d;--bg:#ffffff;--p:#ffffff;--p2:#f7f8fa;--l:#e3e7ec;--t:#161a20;--m:#66717f;--g:#16845f;--a:#9a6a12;--shadow:0 8px 28px rgba(15,23,42,.06)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--t);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+.wrap{max-width:1240px;margin:auto;padding:28px 22px 55px}
+.top{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:34px;padding-bottom:18px;border-bottom:1px solid var(--l)}
+.brand{font-weight:900;font-size:19px;color:#111}
+.brand small{display:block;color:var(--m);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.tag{border:1px solid #d7dce2;border-radius:999px;padding:7px 11px;color:#4f5966;font-size:10px;font-weight:800;text-transform:uppercase;background:#fff}
+.hero,.card{background:var(--p);border:1px solid var(--l);border-radius:18px;box-shadow:var(--shadow)}
+.hero{padding:32px;margin-bottom:18px;background:linear-gradient(135deg,#fff 0%,#fff 68%,#fff4f4 100%);border-left:5px solid var(--r)}
+.ey{color:var(--r);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+h1{font-size:clamp(36px,5vw,58px);line-height:1.03;margin:9px 0 14px;color:#111}
+.lead{max-width:850px;color:#566170;font-size:17px}
+.grid{display:grid;gap:15px}
+.four{grid-template-columns:repeat(4,1fr)}
+.three{grid-template-columns:repeat(3,1fr)}
+.two{grid-template-columns:1fr 1fr}
+.card{padding:19px}
+.label{color:var(--m);font-size:10px;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.value{font-size:27px;font-weight:900;margin:4px 0;color:#151515}
+.muted{color:var(--m);font-size:13px}
+h2{font-size:24px;margin:38px 0 14px;color:#181818}
+h3{font-size:16px;margin:0 0 7px;color:#20242a}
+.persona{display:grid;grid-template-columns:.7fr 1.3fr;gap:15px}
+.person{background:linear-gradient(160deg,var(--r),#a61016);border:none;color:#fff;box-shadow:0 10px 30px rgba(216,23,29,.18)}
+.person h3{color:#fff}
+.person .name{font-size:34px;font-weight:900;margin-top:28px}
+.chips span{display:inline-block;padding:6px 9px;border-radius:999px;background:#f2f4f7;border:1px solid #dde2e8;font-size:11px;margin:3px 3px 3px 0;color:#45505d}
+.chips .red{background:#fff1f1;border-color:#f3c5c7;color:#b41319}
+.chips .green{background:#edf9f4;border-color:#bee6d5;color:#14684d}
+.mini{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.box{background:var(--p2);border:1px solid var(--l);border-radius:12px;padding:13px}
+.box b{display:block;font-size:11px;text-transform:uppercase;margin-bottom:4px;color:#252a31}
+.box span{font-size:12px;color:var(--m)}
+ul{margin:0;padding-left:18px;color:#404955}
+li{margin:6px 0}
+.barrow{display:grid;grid-template-columns:190px 1fr 45px;gap:10px;align-items:center;margin:11px 0;font-size:12px}
+.bar{height:9px;background:#edf0f3;border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--r),#ef5559)}
+.num{text-align:right;font-weight:900;color:#252525}
+.q{font-size:18px;font-weight:900;padding:16px;border-radius:13px;background:#fff7f7;border:1px solid #f0d7d8;margin-top:12px;color:#292929}
+.q span{color:var(--r)}
+.risk{border-top:3px solid var(--r)}
+.motive{border-top:3px solid var(--g)}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{text-align:left;padding:10px;border-bottom:1px solid var(--l);vertical-align:top}
+th{color:var(--m);font-size:9px;text-transform:uppercase;letter-spacing:.08em;background:#fafafa}
+.status{display:inline-block;border-radius:999px;padding:5px 7px;background:#fff8e8;border:1px solid #efd99f;color:#8a6416;font-size:9px;font-weight:900;text-transform:uppercase}
+.call{padding:24px;border-radius:18px;border:1px solid #f1cfd1;background:linear-gradient(130deg,#fff,#fff6f6)}
+.call strong{font-size:20px;color:#222}
+.footer{border-top:1px solid var(--l);margin-top:38px;padding-top:16px;display:flex;justify-content:space-between;color:var(--m);font-size:10px}
+.btn{background:#fff;border:1px solid #d8dde4;color:#222;border-radius:9px;padding:8px 10px;cursor:pointer;font-weight:800}
+.btn:hover{border-color:var(--r);color:var(--r)}
 @media(max-width:900px){.four,.three,.two,.persona{grid-template-columns:1fr}.mini{grid-template-columns:1fr}.barrow{grid-template-columns:125px 1fr 40px}.top{align-items:flex-start;flex-direction:column}}
-@media print{body{background:white;color:#111}.card,.hero,.call{background:white;color:#111}.muted,.label,.box span,.footer{color:#555}.btn{display:none}}
+@media print{.btn{display:none}.card,.hero,.call{box-shadow:none}body{background:#fff}}
 </style>
 </head>
-<body><div class="wrap">
+<body>
+<div class="wrap">
 <div class="top"><div class="brand">INTERMEX S.A.<small>Estrategia comercial · Mercado boliviano</small></div><div><span class="tag">Uso interno · Directorio</span> <button class="btn" onclick="window.print()">Imprimir / PDF</button></div></div>
 <section class="hero"><div class="ey">Disciplined Entrepreneurship · Step 3</div><h1>Perfil de Usuario Final</h1><p class="lead">Hipótesis ejecutiva del cliente prioritario de INTERMEX para orientar decisiones comerciales, marketing, CRM y propuesta de valor en Bolivia. Base metodológica: Bill Aulet, <i>Build an End User Profile</i>, pp. 113–121.</p></section>
-<div class="grid four"><div class="card"><div class="label">Segmento prioritario</div><div class="value">Socio Comercial</div><div class="muted">Revendedor / comerciante independiente</div></div><div class="card"><div class="label">Objetivo principal</div><div class="value">Rotación + margen</div><div class="muted">Evitar capital inmovilizado</div></div><div class="card"><div class="label">Canal decisivo</div><div class="value">WhatsApp</div><div class="muted">RRSS capta; la conversación construye confianza</div></div><div class="card"><div class="label">Estado</div><div class="value">Hipótesis</div><div class="muted">Debe validarse mediante PMR</div></div></div>
-<h2>1. Persona de referencia</h2><section class="persona"><div class="card person"><div class="label" style="color:#fff">Persona de trabajo</div><div class="name">“Carlos”</div><h3>Socio Comercial · Bolivia</h3><p>Compra vehículos 0 KM para reventa. Busca oportunidades que combinen precio, rotación, disponibilidad y seguridad operacional.</p></div><div class="card"><div class="mini"><div class="box"><b>Edad</b><span>30–55 años · preliminar</span></div><div class="box"><b>Ubicación</b><span>Bolivia · plazas con actividad comercial de INTERMEX</span></div><div class="box"><b>Ocupación</b><span>Comerciante, revendedor, importador o empresario automotriz</span></div><div class="box"><b>Compra</b><span>Varias unidades cuando detecta una oportunidad</span></div><div class="box"><b>Digital</b><span>WhatsApp, Facebook, Marketplace, TikTok</span></div><div class="box"><b>Decisión</b><span>Resultado del negocio antes que atributos aspiracionales</span></div></div><div class="chips" style="margin-top:12px"><span class="red">Busca margen</span><span class="red">Valora rotación</span><span class="green">Necesita confianza</span><span>Compara</span><span>Opera en red</span></div></div></section>
-<h2>2. Psicografía</h2><div class="grid three"><div class="card"><h3>Orientado al negocio</h3><p class="muted">Evalúa el vehículo como una oportunidad comercial y no solo como producto.</p></div><div class="card"><h3>Pragmático</h3><p class="muted">Prioriza precio, stock, velocidad de salida y facilidad operacional.</p></div><div class="card"><h3>Sensible al riesgo</h3><p class="muted">Comprar a distancia aumenta su necesidad de respaldo y certeza.</p></div><div class="card"><h3>Busca oportunidades</h3><p class="muted">Monitorea modelos, precios, regulación y señales de demanda.</p></div><div class="card"><h3>Influenciado por su red</h3><p class="muted">Comerciantes, transportistas y agencias forman parte de su decisión.</p></div><div class="card"><h3>Digital, pero relacional</h3><p class="muted">Descubre en redes, pero necesita conversación directa para cerrar.</p></div></div>
-<h2>3. Proxy Products & Watering Holes</h2><div class="grid two"><div class="card"><h3>Servicios y productos proxy</h3><ul><li>Facebook Marketplace</li><li>WhatsApp Business</li><li>TikTok y Facebook</li><li>Agencias despachantes de aduana</li><li>Transportistas Chile–Bolivia</li><li>Bancos y transferencias</li><li>Otros importadores establecidos en ZOFRI</li></ul></div><div class="card"><h3>Dónde encontrarlo</h3><ul><li>Grupos de compra y venta</li><li>Marketplace y contenido automotriz</li><li>TikTok, Facebook e Instagram</li><li>Ferias y zonas automotrices</li><li>Agencias de aduana y transportistas</li><li>ZOFRI Iquique</li></ul><p class="muted">Implicancia: Meta, TikTok y WhatsApp deben funcionar como un mismo ecosistema comercial.</p></div></div>
-<h2>4. Un día en su vida</h2><div class="card"><div class="grid two"><div><h3>Mañana</h3><p class="muted">Revisa WhatsApp, consultas, Marketplace y redes. Cotiza stock, versiones y precios.</p></div><div><h3>Mediodía</h3><p class="muted">Compara alternativas y estima vehículo + AP + transporte + nacionalización + margen.</p></div><div><h3>Tarde</h3><p class="muted">Negocia con proveedores, transportistas y agencias. Puede reservar o comprar.</p></div><div><h3>Noche</h3><p class="muted">Vuelve a monitorear competencia, precios, modelos y señales de demanda.</p></div></div><div class="q">Pregunta central: <span>“¿En cuánto me queda puesto en Bolivia y cuánto puedo ganar?”</span></div></div>
-<h2>5. Miedos y motivadores</h2><div class="grid two"><div class="card risk"><h3>Principales miedos</h3><ul><li>No lograr vender el vehículo.</li><li>Inmovilizar capital demasiado tiempo.</li><li>Costos imprevistos o pérdida de margen.</li><li>Proveedor poco confiable.</li><li>Modelo con baja demanda.</li><li>Problemas documentales o de nacionalización.</li></ul></div><div class="card motive"><h3>Principales motivadores</h3><ul><li>Margen atractivo.</li><li>Rotación rápida.</li><li>Stock disponible.</li><li>Nuevas oportunidades de negocio.</li><li>Proceso claro y acompañado.</li><li>Respaldo y garantía.</li></ul></div></div>
-<h2>6. Prioridades preliminares</h2><div class="card"><div class="barrow"><b>Rentabilidad / margen</b><div class="bar"><i style="width:100%"></i></div><div class="num">25%</div></div><div class="barrow"><b>Precio competitivo</b><div class="bar"><i style="width:80%"></i></div><div class="num">20%</div></div><div class="barrow"><b>Rotación / demanda</b><div class="bar"><i style="width:80%"></i></div><div class="num">20%</div></div><div class="barrow"><b>Confianza proveedor</b><div class="bar"><i style="width:60%"></i></div><div class="num">15%</div></div><div class="barrow"><b>Stock inmediato</b><div class="bar"><i style="width:40%"></i></div><div class="num">10%</div></div><div class="barrow"><b>Facilidad proceso</b><div class="bar"><i style="width:20%"></i></div><div class="num">5%</div></div><div class="barrow"><b>Garantía / respaldo</b><div class="bar"><i style="width:20%"></i></div><div class="num">5%</div></div><p class="muted">Ponderación de trabajo para discusión y validación con clientes reales.</p></div>
-<h2>7. Implicancias estratégicas</h2><div class="grid three"><div class="card"><h3>Vender negocio</h3><p class="muted">Traducir producto a margen, rotación, stock, respaldo y facilidad operacional.</p></div><div class="card"><h3>RRSS → WhatsApp</h3><p class="muted">Diseñar contenidos que inicien conversaciones comerciales de mayor calidad.</p></div><div class="card"><h3>Reducir incertidumbre</h3><p class="muted">Mostrar stock real, proceso, documentación y acompañamiento.</p></div><div class="card"><h3>Segmentar CRM</h3><p class="muted">Distinguir socio comercial, comprador final y flotas.</p></div><div class="card"><h3>Contenido de decisión</h3><p class="muted">Comparativas, disponibilidad, costos y proceso de compra.</p></div><div class="card"><h3>Construir evidencia</h3><p class="muted">Registrar objeciones, origen de leads, modelos solicitados y cierres.</p></div></div>
-<h2>8. Hipótesis a validar</h2><div class="card" style="overflow:auto"><table><tr><th>Hipótesis</th><th>Validación</th><th>Estado</th></tr><tr><td>Margen y rotación pesan más que atributos aspiracionales.</td><td>Entrevistas + motivos de compra en CRM.</td><td><span class="status">Hipótesis</span></td></tr><tr><td>WhatsApp es el canal decisivo de cierre.</td><td>Atribución y análisis de conversaciones.</td><td><span class="status">Hipótesis</span></td></tr><tr><td>La confianza reduce fricción en compras remotas.</td><td>Entrevistas y análisis de objeciones.</td><td><span class="status">Hipótesis</span></td></tr><tr><td>Stock inmediato incrementa intención de compra.</td><td>Comparar campañas con y sin stock explícito.</td><td><span class="status">Hipótesis</span></td></tr></table></div>
-<h2>Propuesta de valor preliminar</h2><div class="call"><strong>INTERMEX como socio comercial desde ZOFRI</strong><p>INTERMEX ayuda a socios comerciales bolivianos a identificar y comprar vehículos 0 KM con potencial de rotación y rentabilidad desde ZOFRI, mediante una operación segura, acompañada y con respaldo.</p></div>
-<div class="footer"><div>INTERMEX S.A. · Perfil de Usuario Final · Uso interno</div><div>Francisca Calderón A. · Marketing · Septiembre 2026</div></div>
-</div></body></html>
+<div class="grid four">
+<div class="card"><div class="label">Segmento prioritario</div><div class="value">Socio Comercial</div><div class="muted">Revendedor / comerciante independiente</div></div>
+<div class="card"><div class="label">Objetivo principal</div><div class="value">Rotación + margen</div><div class="muted">Evitar capital inmovilizado</div></div>
+<div class="card"><div class="label">Canal decisivo</div><div class="value">WhatsApp</div><div class="muted">RRSS capta; la conversación construye confianza</div></div>
+<div class="card"><div class="label">Estado</div><div class="value">Hipótesis</div><div class="muted">Debe validarse mediante PMR</div></div>
+</div>
+<h2>1. Persona de referencia</h2>
+<section class="persona">
+<div class="card person"><div class="label" style="color:#fff">Persona de trabajo</div><div class="name">“Carlos”</div><h3>Socio Comercial · Bolivia</h3><p>Compra vehículos 0 KM para reventa. Busca oportunidades que combinen precio, rotación, disponibilidad y seguridad operacional.</p></div>
+<div class="card"><div class="mini">
+<div class="box"><b>Edad</b><span>30–55 años · preliminar</span></div>
+<div class="box"><b>Ubicación</b><span>La Paz · Cochabamba · Oruro · Potosí · Tarija · Sucre</span></div>
+<div class="box"><b>Ocupación</b><span>Comerciante, revendedor, importador o empresario automotriz</span></div>
+<div class="box"><b>Compra</b><span>Varias unidades cuando detecta una oportunidad</span></div>
+<div class="box"><b>Digital</b><span>WhatsApp, Facebook, Marketplace, TikTok</span></div>
+<div class="box"><b>Decisión</b><span>Resultado del negocio antes que atributos aspiracionales</span></div>
+</div><div class="chips" style="margin-top:12px"><span class="red">Busca margen</span><span class="red">Valora rotación</span><span class="green">Necesita confianza</span><span>Compara</span><span>Opera en red</span></div></div>
+</section>
+<h2>2. Psicografía</h2>
+<div class="grid three">
+<div class="card"><h3>Orientado al negocio</h3><p class="muted">Evalúa el vehículo como una oportunidad comercial y no solo como producto.</p></div>
+<div class="card"><h3>Pragmático</h3><p class="muted">Prioriza precio, stock, velocidad de salida y facilidad operacional.</p></div>
+<div class="card"><h3>Sensible al riesgo</h3><p class="muted">Comprar a distancia aumenta su necesidad de respaldo y certeza.</p></div>
+<div class="card"><h3>Busca oportunidades</h3><p class="muted">Monitorea modelos, precios, regulación y señales de demanda.</p></div>
+<div class="card"><h3>Influenciado por su red</h3><p class="muted">Comerciantes, transportistas y agencias forman parte de su decisión.</p></div>
+<div class="card"><h3>Digital, pero relacional</h3><p class="muted">Descubre en redes, pero necesita conversación directa para cerrar.</p></div>
+</div>
+<h2>3. Proxy Products & Watering Holes</h2>
+<div class="grid two">
+<div class="card"><h3>Servicios y productos proxy</h3><ul><li>Facebook Marketplace</li><li>WhatsApp Business</li><li>TikTok y Facebook</li><li>Agencias despachantes de aduana</li><li>Transportistas Chile–Bolivia</li><li>Bancos y transferencias</li><li>Otros importadores establecidos en ZOFRI</li></ul></div>
+<div class="card"><h3>Dónde encontrarlo</h3><ul><li>Grupos de compra y venta</li><li>Marketplace y contenido automotriz</li><li>TikTok, Facebook e Instagram</li><li>Ferias y zonas automotrices</li><li>Agencias de aduana y transportistas</li><li>ZOFRI Iquique</li></ul><p class="muted">Implicancia: Meta, TikTok y WhatsApp deben funcionar como un mismo ecosistema comercial.</p></div>
+</div>
+<h2>4. Un día en su vida</h2>
+<div class="card"><div class="grid two">
+<div><h3>Mañana</h3><p class="muted">Revisa WhatsApp, consultas, Marketplace y redes. Cotiza stock, versiones y precios.</p></div>
+<div><h3>Mediodía</h3><p class="muted">Compara alternativas y estima vehículo + AP + transporte + nacionalización + margen.</p></div>
+<div><h3>Tarde</h3><p class="muted">Negocia con proveedores, transportistas y agencias. Puede reservar o comprar.</p></div>
+<div><h3>Noche</h3><p class="muted">Vuelve a monitorear competencia, precios, modelos y señales de demanda.</p></div>
+</div><div class="q">Pregunta central: <span>“¿En cuánto me queda puesto en Bolivia y cuánto puedo ganar?”</span></div></div>
+<h2>5. Miedos y motivadores</h2>
+<div class="grid two">
+<div class="card risk"><h3>Principales miedos</h3><ul><li>No lograr vender el vehículo.</li><li>Inmovilizar capital demasiado tiempo.</li><li>Costos imprevistos o pérdida de margen.</li><li>Proveedor poco confiable.</li><li>Modelo con baja demanda.</li><li>Problemas documentales o de nacionalización.</li></ul></div>
+<div class="card motive"><h3>Principales motivadores</h3><ul><li>Margen atractivo.</li><li>Rotación rápida.</li><li>Stock disponible.</li><li>Nuevas oportunidades de negocio.</li><li>Proceso claro y acompañado.</li><li>Respaldo y garantía.</li></ul></div>
+</div>
+<h2>6. Prioridades preliminares</h2>
+<div class="card">
+<div class="barrow"><b>Rentabilidad / margen</b><div class="bar"><i style="width:100%"></i></div><div class="num">25%</div></div>
+<div class="barrow"><b>Precio competitivo</b><div class="bar"><i style="width:80%"></i></div><div class="num">20%</div></div>
+<div class="barrow"><b>Rotación / demanda</b><div class="bar"><i style="width:80%"></i></div><div class="num">20%</div></div>
+<div class="barrow"><b>Confianza proveedor</b><div class="bar"><i style="width:60%"></i></div><div class="num">15%</div></div>
+<div class="barrow"><b>Stock inmediato</b><div class="bar"><i style="width:40%"></i></div><div class="num">10%</div></div>
+<div class="barrow"><b>Facilidad proceso</b><div class="bar"><i style="width:20%"></i></div><div class="num">5%</div></div>
+<div class="barrow"><b>Garantía / respaldo</b><div class="bar"><i style="width:20%"></i></div><div class="num">5%</div></div>
+<p class="muted">Ponderación de trabajo para discusión y validación con clientes reales.</p>
+</div>
+<h2>7. Implicancias estratégicas</h2>
+<div class="grid three">
+<div class="card"><h3>Vender negocio</h3><p class="muted">Traducir producto a margen, rotación, stock, respaldo y facilidad operacional.</p></div>
+<div class="card"><h3>RRSS → WhatsApp</h3><p class="muted">Diseñar contenidos que inicien conversaciones comerciales de mayor calidad.</p></div>
+<div class="card"><h3>Reducir incertidumbre</h3><p class="muted">Mostrar stock real, proceso, documentación y acompañamiento.</p></div>
+<div class="card"><h3>Segmentar CRM</h3><p class="muted">Distinguir socio comercial, comprador final y flotas.</p></div>
+<div class="card"><h3>Contenido de decisión</h3><p class="muted">Comparativas, disponibilidad, costos y proceso de compra.</p></div>
+<div class="card"><h3>Construir evidencia</h3><p class="muted">Registrar objeciones, origen de leads, modelos solicitados y cierres.</p></div>
+</div>
+<h2>8. Hipótesis a validar</h2>
+<div class="card" style="overflow:auto"><table><tr><th>Hipótesis</th><th>Validación</th><th>Estado</th></tr>
+<tr><td>Margen y rotación pesan más que atributos aspiracionales.</td><td>Entrevistas + motivos de compra en CRM.</td><td><span class="status">Hipótesis</span></td></tr>
+<tr><td>WhatsApp es el canal decisivo de cierre.</td><td>Atribución y análisis de conversaciones.</td><td><span class="status">Hipótesis</span></td></tr>
+<tr><td>La confianza reduce fricción en compras remotas.</td><td>Entrevistas y análisis de objeciones.</td><td><span class="status">Hipótesis</span></td></tr>
+<tr><td>Stock y disponibilidad aumentan la velocidad de decisión.</td><td>Comparar consultas, reservas y cierres por disponibilidad.</td><td><span class="status">Hipótesis</span></td></tr>
+</table></div>
+<h2>9. Propuesta de valor de trabajo</h2>
+<div class="call"><strong>INTERMEX ayuda a socios comerciales bolivianos a identificar y comprar vehículos 0 KM con potencial de rotación y rentabilidad desde ZOFRI.</strong><p class="muted" style="margin-bottom:0">La propuesta debe validarse con investigación primaria antes de considerarse definitiva.</p></div>
+<div class="footer"><div><strong>INTERMEX S.A.</strong> · Perfil de Usuario Final</div><div>Preparado para uso interno · Directorio</div></div>
+</div>
+</body>
+</html>
